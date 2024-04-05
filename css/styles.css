@@ -1,0 +1,36 @@
+ul {
+  max-width: 1128px;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 24px;
+  list-style: none;
+  margin-inline-start: auto;
+  margin-inline-end: auto;
+  padding: 0;
+}
+
+li {
+  height: 200px;
+  width: calc((100% - 24px * 2) / 3);
+}
+
+img {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  width: 360px;
+  height: 200px;
+}
+
+.modal img {
+  width: 1112px;
+  height: 640px;
+}
+
+.basicLightbox--visible {
+  background: #2E2F42CC;
+}
+
+div.basicLightbox {
+  background: #2E2F42CC;
+}
